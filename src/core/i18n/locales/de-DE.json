@@ -1,0 +1,155 @@
+{
+  "common": {
+    "edit": "Bearbeiten",
+    "save": "Speichern",
+    "yes": "Ja",
+    "no": "Nein",
+    "ok": "OK",
+    "cancel": "Abbrechen",
+    "close": "Schließen",
+    "delete": "Löschen",
+    "quit": "Beenden",
+    "continue": "Weiter",
+    "back": "Zurück",
+    "previous": "Vorheriger",
+    "next": "Nächster",
+    "login": "Anmelden",
+    "register": "Registrieren",
+    "password": "Passwort",
+    "successful": "Erfolgreich",
+    "try_again": "Nochmal versuchen",
+    "search": "Suchen",
+    "start_search": "Suche starten",
+    "all": "Alle",
+    "available": "Verfügbar",
+    "hours": "Stunden",
+    "days": "Tage",
+    "today": "Heute",
+    "total": "Gesamt",
+    "tick_off": "Erledigen",
+    "pieces": "Stück",
+    "connected": "Verbunden",
+    "not_connected": "Nicht Verbunden",
+    "simulation": "Simulation",
+    "code": "Code",
+    "week": {
+      "monday": "Montag",
+      "tuesday": "Dienstag",
+      "wednesday": "Mittwoch",
+      "thursday": "Donnerstag",
+      "friday": "Freitag",
+      "saturday": "Samstag",
+      "sunday": "Sonntag"
+    }
+  },
+  "navbar": {
+    "play_pause": "Start/Pause",
+    "stop": "Stop",
+    "speed": "Geschwindigkeit",
+    "task": "Task",
+    "tasks": "Tasks",
+    "settings": "Einstellungen",
+    "faq": "FAQ",
+    "home": "Home"
+  },
+  "code_panel": {
+    "select_language": "Bitte wähle zuerst den gewünschten Ausgabetypen."
+  },
+  "blockly": {
+    "categories": {
+      "logic": "Logik",
+      "text": "Text",
+      "variables": "Variablen",
+      "motion": "Bewegung",
+      "endEffector": "Endeffektor",
+      "objects": "Objekte",
+      "examples": "Beispiele"
+    },
+    "dropdown_options": {
+      "cube": "Würfel",
+      "sphere": "Kugel",
+      "stone": "Stein",
+      "open": "Öffnen",
+      "close": "Schließen",
+      "default": "Standard",
+      "candle": "Kerze"
+    },
+    "toolbox": {
+      "basic_motion_controls": "Grundlegende Bewegungselemente ",
+      "joint_lock_unlock": "Gelenke Sperren/Entsperren",
+      "poses": "Posen",
+      "new_pose": "Neue Pose"
+    },
+    "blocks": {
+      "mainloop": {
+        "program_sequence_title": "Titel",
+        "program_sequence_placeholder": "Mein erstes Programm",
+        "starting_point_title": "Start Pose",
+        "tooltip": "Ziehe die Baublöcke aus der Werkzeugbox links in diesen Skill."
+      },
+      "motion": {
+        "move_to": {
+          "title": "Bewege zu",
+          "tooltip": "Bewege den Roboter zum gegebenen Ziel."
+        },
+        "pose": {
+          "title": "Pose",
+          "tooltip": "Definiere eine Pose."
+        },
+        "coordinates": {
+          "title": "Koordinaten",
+          "tooltip": "Bitte gib kartesische Koordinaten ein."
+        },
+        "joints": {
+          "title": "Gelenkwinkel",
+          "tooltip": "Bitte gib die gewünschten Winkel der Gelenke ein."
+        },
+        "lock_joints": {
+          "title": "Gelenke sperren",
+          "tooltip": "Bitte wähle das zu sperrende Gelenk aus dem Dropdown."
+        },
+        "unlock_joints": {
+          "title": "Gelenke entsperren",
+          "tooltip": "Bitte wähle das zu entsperrende Gelenk aus dem Dropdown."
+        },
+        "home_position": {
+          "title": "Starter Pose",
+          "tooltip": "Verfahre den Roboter in die initiale Pose."
+        },
+        "set_speed": {
+          "title": "setze Geschwindigkeit",
+          "tooltip": "Stellt die Geschwindigkeit der Ausführung auf die selektierte Auswahl ein."
+        }
+      },
+      "objects": {
+        "place": {
+          "title": "Objekt platzieren",
+          "position": "an Position",
+          "tooltip": "Platziert ein Objekt an gegebener Position."
+        },
+        "color": {
+          "title": "In der Farbe",
+          "tooltip": "Färbt das platzierte Objekt ein."
+        }
+      },
+      "endeffector": {
+        "open": {
+          "title": "Greifer öffnen",
+          "tooltip": "Öffnet den montierten Greifer."
+        },
+        "close": {
+          "title": "Greifer schließen",
+          "tooltip": "Schließt den montierten Greifer"
+        },
+        "is_closed": {
+          "title": "Greifer geschlossen?",
+          "tooltip": "Führt eine Prüfung durch ob der Greifer geschlossen ist bzw. ob ein Objekt gegriffen wurde."
+        },
+        "action": {
+          "title": "Greifer",
+          "tooltip": "Wähle eine Greifer Aktion aus dem Auswahlmenü."
+        }
+      }
+    }
+  }
+}

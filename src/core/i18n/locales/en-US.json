@@ -1,0 +1,155 @@
+{
+  "common": {
+    "edit": "Edit",
+    "save": "Save",
+    "yes": "Yes",
+    "no": "No",
+    "ok": "Ok",
+    "cancel": "Cancel",
+    "close": "Close",
+    "delete": "Delete",
+    "quit": "Quit",
+    "continue": "Continue",
+    "back": "Back",
+    "previous": "Previous",
+    "next": "Next",
+    "login": "Login",
+    "register": "Register",
+    "password": "Password",
+    "successful": "Successful",
+    "try_again": "Try again",
+    "search": "Search",
+    "start_search": "Start search",
+    "all": "All",
+    "available": "Available",
+    "hours": "Hours",
+    "days": "Days",
+    "today": "Today",
+    "total": "Total",
+    "tick_off": "Tick off",
+    "pieces": "Pieces",
+    "connected": "Connected",
+    "not_connected": "Not connected",
+    "simulation": "Simulation",
+    "code": "Code",
+    "week": {
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday",
+      "sunday": "Sunday"
+    }
+  },
+  "navbar": {
+    "play_pause": "Play/Pause",
+    "stop": "Stop",
+    "speed": "Speed",
+    "task": "Task",
+    "tasks": "Tasks",
+    "settings": "Settings",
+    "faq": "FAQ",
+    "home": "Home"
+  },
+  "code_panel": {
+    "select_language": "Please select the code type to display."
+  },
+  "blockly": {
+    "categories": {
+      "logic": "Logic",
+      "text": "Text",
+      "variables": "Variables",
+      "motion": "Motion",
+      "endEffector": "End Effector",
+      "objects": "Objects",
+      "examples": "Examples"
+    },
+    "dropdown_options": {
+      "cube": "Cube",
+      "sphere": "Sphere",
+      "stone": "Stone",
+      "open": "Open",
+      "close": "Close",
+      "default": "Default",
+      "candle": "Candle"
+    },
+    "toolbox": {
+      "basic_motion_controls": "Basic motion controls",
+      "joint_lock_unlock": "Joints lock/unlock",
+      "poses": "Poses",
+      "new_pose": "New pose"
+    },
+    "blocks": {
+      "mainloop": {
+        "program_sequence_title": "Title",
+        "program_sequence_placeholder": "My first program",
+        "starting_point_title": "starting point",
+        "tooltip": "Start by dragging and dropping blocks from the builder on the left side into the programming panel."
+      },
+      "motion": {
+        "move_to": {
+          "title": "Move to",
+          "tooltip": "Move Robot to given coordinates."
+        },
+        "pose": {
+          "title": "Pose",
+          "tooltip": "Define a pose"
+        },
+        "coordinates": {
+          "title": "Coordinates",
+          "tooltip": "Enter cartesian coordinates."
+        },
+        "joints": {
+          "title": "Joints",
+          "tooltip": "Enter the robot joint angles."
+        },
+        "lock_joints": {
+          "title": "Lock joints",
+          "tooltip": "Please select the joint to lock from the dropdown."
+        },
+        "unlock_joints": {
+          "title": "Unlock joints",
+          "tooltip": "Please select the joint to unlock from the dropdown."
+        },
+        "home_position": {
+          "title": "Starter pose",
+          "tooltip": "Drive the robot to its initial position."
+        },
+        "set_speed": {
+          "title": "set speed",
+          "tooltip": "Sets the execution speed to the selected dropdown value."
+        }
+      },
+      "objects": {
+        "place": {
+          "title": "place object",
+          "position": "at position",
+          "tooltip": "Places a given object into the workspace."
+        },
+        "color": {
+          "title": "color",
+          "tooltip": "Set the color the placed object."
+        }
+      },
+      "endeffector": {
+        "open": {
+          "title": "Open gripper",
+          "tooltip": "Opens the gripper"
+        },
+        "close": {
+          "title": "Close gripper",
+          "tooltip": "Closes the gripper"
+        },
+        "is_closed": {
+          "title": "Gripper closed?",
+          "tooltip": "Checks if the gripper is properly closed or if an object is grasped."
+        },
+        "action": {
+          "title": "Gripper",
+          "tooltip": "Select a gripper action from the dropdown."
+        }
+      }
+    }
+  }
+}

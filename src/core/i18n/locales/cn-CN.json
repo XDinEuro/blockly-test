@@ -1,0 +1,155 @@
+{
+  "common": {
+    "edit": "编辑",
+    "save": "保存",
+    "yes": "是",
+    "no": "不",
+    "ok": "确认",
+    "cancel": "取消",
+    "close": "关闭",
+    "delete": "删除",
+    "quit": "退出",
+    "continue": "继续",
+    "back": "背",
+    "previous": "以前",
+    "next": "下一个",
+    "login": "登录",
+    "register": "注册",
+    "password": "密码",
+    "successful": "成功",
+    "try_again": "再试试",
+    "search": "搜索",
+    "start_search": "开始搜索",
+    "all": "所有",
+    "available": "可用",
+    "hours": "小时",
+    "days": "天",
+    "today": "今天",
+    "total": "总计",
+    "tick_off": "已完成",
+    "pieces": "件",
+    "connected": "连接的",
+    "not_connected": "未连接",
+    "simulation": "仿真",
+    "code": "代码",
+    "week": {
+      "monday": "星期一",
+      "tuesday": "星期二",
+      "wednesday": "星期三",
+      "thursday": "星期四",
+      "friday": "星期五",
+      "saturday": "星期六",
+      "sunday": "星期日"
+    }
+  },
+  "navbar": {
+    "play_pause": "运行/暂停",
+    "stop": "停止",
+    "speed": "速度",
+    "task": "任务",
+    "tasks": "任务",
+    "settings": "设置",
+    "faq": "帮助",
+    "home": "家"
+  },
+  "code_panel": {
+    "select_language": "请选择要显示的代码类型"
+  },
+  "blockly": {
+    "categories": {
+      "logic": "逻辑",
+      "text": "文本",
+      "variables": "变量",
+      "motion": "运动",
+      "endEffector": "末端",
+      "objects": "物品",
+      "examples": "样例"
+    },
+    "dropdown_options": {
+      "cube": "方块",
+      "sphere": "球",
+      "stone": "石头",
+      "open": "开放",
+      "close": "关闭",
+      "default": "默认",
+      "candle": "烛光"
+    },
+    "toolbox": {
+      "basic_motion_controls": "基本运动元素",
+      "joint_lock_unlock": "关节锁定/解锁",
+      "poses": "姿态",
+      "new_pose": "新姿态"
+    },
+    "blocks": {
+      "mainloop": {
+        "program_sequence_title": "命名",
+        "program_sequence_placeholder": "我的第一个节目",
+        "starting_point_title": "起始点",
+        "tooltip": "通过从左侧的构建器中拖放区块到编程面板中开始."
+      },
+      "motion": {
+        "move_to": {
+          "title": "移动到",
+          "tooltip": "将机器人移动到给定的位置."
+        },
+        "pose": {
+          "title": "姿势",
+          "tooltip": "定义一个姿势."
+        },
+        "coordinates": {
+          "title": "坐标",
+          "tooltip": "请输入笛卡尔空间坐标."
+        },
+        "joints": {
+          "title": "关节",
+          "tooltip": "请输入关节角度."
+        },
+        "lock_joints": {
+          "title": "锁定关节",
+          "tooltip": "锁定所有关节，禁止其运动"
+        },
+        "unlock_joints": {
+          "title": "解锁关节",
+          "tooltip": "解锁所有关节，使能其运动"
+        },
+        "home_position": {
+          "title": "初始姿态",
+          "tooltip": "将机器人移动到其初始位置."
+        },
+        "set_speed": {
+          "title": "设置速度",
+          "tooltip": "将执行速度设置为选定的下拉值."
+        }
+      },
+      "objects": {
+        "place": {
+          "title": "放置物体",
+          "position": "姿态",
+          "tooltip": "将一个给定的对象以指定姿态放置到工作区."
+        },
+        "color": {
+          "title": "颜色",
+          "tooltip": "设置放置对象的颜色."
+        }
+      },
+      "endeffector": {
+        "open": {
+          "title": "打开夹爪",
+          "tooltip": "打开末端夹爪."
+        },
+        "close": {
+          "title": "关闭夹爪",
+          "tooltip": "关闭末端夹爪."
+        },
+        "is_closed": {
+          "title": "夹爪闭合?",
+          "tooltip": "检查机械手是否正确关闭，或者是否抓到了一个物体."
+        },
+        "action": {
+          "title": "抓手",
+          "tooltip": "从下拉菜单中选择一个抓取动作."
+        }
+      }
+    }
+  }
+}
