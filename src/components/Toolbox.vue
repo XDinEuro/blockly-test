@@ -5,6 +5,7 @@
     <category :name="$t('blockly.categories.logic')" colour="%{BKY_LOGIC_HUE}">
     <!-- <category :name="test" colour="%{BKY_LOGIC_HUE}"> -->
       <block type="controls_if"></block>
+      <block type="logic_boolean"></block>
     </category>
   </xml>
 </template>
@@ -12,11 +13,21 @@
 <script>
 import Blockly from "blockly";
 import { onMounted } from "vue";
+import * as De from 'blockly/msg/de';
+import * as En from 'blockly/msg/en';
+import * as Cn from 'blockly/msg/zh-hans';
+import { useI18n } from "vue-i18n";
+import {ref} from "vue";
 
 export default {
   name: "Toolbox",
   setup() {
     onMounted(() => {
+      const i18n = ref(useI18n({ useScope: "global" })).value;
+      if(i18n.locale === "de-DE") Blockly.setLocale(De);
+      else if(i18n.locale=== "en-US") { Blockly.setLocale(En) 
+      }
+      else if(i18n.locale  === "cn-CN") Blockly.setLocale(Cn)
       Blockly.inject(document.querySelector("#category-block"), {
         toolbox: document.querySelector("#toolbox"),
         // media: 'https://unpkg.com/blockly/media/',
